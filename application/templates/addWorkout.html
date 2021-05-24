@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block body_content %}
+    <form method='POST' action="" >
+
+        {{ form.hidden_tag()}}
+
+        {{form.workout_name.label}} {{form.workout_name}}
+        <br>
+        {% if form.workout_name.errors %}
+            {% for error in form.workout_name.errors %}
+                {{ error }}<br>
+            {% endfor %}
+        {% endif %}
+
+        {{ form.workout_complete.label }} {{ form.workout_complete }}
+        <br>
+
+
+        {% if form.workout_complete.errors %}
+            {% for error in form.workout_complete.errors %}
+
+
+                {{ error }} <br>
+                {% endfor %}
+            {% endif %}
+
+            {{ form.submit }}
+
+
+    </form>
+{% endblock body_content %}

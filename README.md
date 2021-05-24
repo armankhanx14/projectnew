@@ -65,8 +65,9 @@ A picture of a detailed risk assesment can be found below.
 
 
 ### Project Managment
-I initially started off using Jira to track my progress. I found Jira very hard to use and add userstories, so idecided to switch ovver to Trello which was very simple and effective. Trello board had further advantages aswell as its ease of navigation such as it being very user friendly and free to use.
+I initially started off using Jira to track my progress. I found Jira very hard to use and add userstories, so idecided to switch over to Trello which was very simple and effective. Trello board had further advantages aswell as its ease of navigation such as it being very user friendly and free to use.
 ![pic](https://github.com/armankhanx14/QAPROJECT/blob/master/images/trelloscreenshot.png)
+[here](https://trello.com/b/W2lgOrnx/kanban-template)
 
 ### Entity Relationship Diagram
 I have included teo pictures of a ERD diagram showing the structure of the database.The first picture is a many to many relationship. This was my initial plan however, I found it very difficult to deploy this therefore I instead went for a one to many relationship. The second  picture shows a relationsip with to tables which one a one to many relationship with the foreign key in the workout table. This means that a user is able to have many workouts however a workout can one user.

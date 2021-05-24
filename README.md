@@ -72,7 +72,7 @@ I initially started off using Jira to track my progress. I found Jira very hard 
 I have included teo pictures of a ERD diagram showing the structure of the database.The first picture is a many to many relationship. This was my initial plan however, I found it very difficult to deploy this therefore I instead went for a one to many relationship. The second  picture shows a relationsip with to tables which one a one to many relationship with the foreign key in the workout table. This means that a user is able to have many workouts however a workout can one user.
 
 ![pic](https://github.com/armankhanx14/QAPROJECT/blob/master/images/erd.png)
-![pic](https://github.com/armankhanx14/QAPROJECT/blob/master/images/erd2.png)
+![pic](https://github.com/armankhanx14/QAPROJECT/blob/master/images/manytomany.png)
 
 
 ### Continous Integration pipeline

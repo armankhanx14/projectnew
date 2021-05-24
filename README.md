@@ -59,7 +59,7 @@ The users will also be able to update and delete from their workoutlist
 ### Risk Assessment
 A picture of a detailed risk assesment can be found below. 
 
-![pic](https://github.com/armankhanx14/QAPROJECT/blob/master/images/trelloscreenshot.png)
+![pic](https://github.com/armankhanx14/QAPROJECT/blob/master/images/RiskAssessmentPic.png)
 
 
 
